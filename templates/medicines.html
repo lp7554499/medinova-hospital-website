@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Medinova – Medicines Page</h2>
+
+    <div class="row">
+        {% for med in medicines %}
+        <div class="col-md-4 mb-4">
+
+            <div class="card shadow-sm" style="border-radius: 15px; overflow: hidden;">
+
+                <!-- IMAGE (corrected) -->
+                <img src="{{ med.image.url }}" 
+                     alt="{{ med.name }}" 
+                     class="card-img-top"
+                     style="height: 230px; object-fit: cover;">
+
+                <div class="card-body">
+
+                    <!-- NAME -->
+                    <h5 class="card-title">{{ med.name }}</h5>
+
+                    <!-- COMPANY -->
+                    <p><strong>Company:</strong> {{ med.company }}</p>
+
+                    <!-- TYPE -->
+                    <p><strong>Type:</strong> {{ med.type }}</p>
+
+                    <!-- PRICE -->
+                    <p class="text-success fw-bold">₹ {{ med.price }}</p>
+
+                    <!-- USES -->
+                    <p>
+                        <strong>Uses:</strong>
+                        {{ med.uses|truncatechars:80 }}
+                    </p>
+
+                    <!-- SIDE EFFECTS -->
+                    <p class="text-muted" style="font-size: 13px;">
+                        <strong>Side Effects:</strong>
+                        {{ med.side_effects|truncatechars:80 }}
+                    </p>
+
+                    <!-- CATEGORY BADGE -->
+                    <span class="badge bg-primary">{{ med.category }}</span>
+
+                </div>
+
+            </div>
+
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
