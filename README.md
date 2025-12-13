@@ -7,16 +7,9 @@ Includes Doctors, Blogs, Medicines, Testimonials, Dynamic Search & Fully Respons
 
 ---
 
-## 🚀 Live Demo  
-Live Deploy - https://medinova7lalit.pythonanywhere.com/
-
----
-
-# 📸 Project Preview
-
-<p align="center">
-  <img src="https://github.com/lp7554499/medinova-hospital-website/blob/main/img-size.png?raw=true"/>
-</p>
+  <p align="center" >
+    <img src="https://i0.wp.com/htmlcodex.com/wp-content/uploads/2021/05/hospital-website-template.jpg?w=800&ssl=1"/>
+  </p> 
 
 ---
 
@@ -46,21 +39,22 @@ Live Deploy - https://medinova7lalit.pythonanywhere.com/
 
 ---
 
-# 🗂 Project Folder Structure
+# 📸 Project Preview
 
-medinova/
-│── core/
-│── medicine/
-│── ourdoctors/
-│── ourblogs/
-│── testimoniyal/
-│── templates/
-│── static/
-│── media/
-│── manage.py
-│── db.sqlite3
+<p align="center">
+  <img src="https://github.com/lp7554499/medinova-hospital-website/blob/main/img-size.png?raw=true"/>
+</p>
 
 ---
+
+
+---
+
+## 🚀 Live Demo  
+Live Deploy - https://medinova7lalit.pythonanywhere.com/
+
+---
+
 
 👨‍💻 Author
 
