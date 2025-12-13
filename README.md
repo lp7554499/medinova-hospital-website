@@ -7,8 +7,8 @@ Includes Doctors, Blogs, Medicines, Testimonials, Dynamic Search & Fully Respons
 
 ---
 
-## 🚀 Live Demo (Optional)  
-`medinova7lalit.pythonanywhere.com`
+## 🚀 Live Demo  
+Live Deploy - medinova7lalit.pythonanywhere.com
 
 ---
 
