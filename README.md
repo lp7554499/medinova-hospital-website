@@ -31,7 +31,7 @@ Includes Doctors, Blogs, Medicines, Testimonials, Dynamic Search & Fully Respons
 
 | Layer | Technology |
 |------|------------|
-| Backend | Django 5.x |
+| Backend | Django 5.x | Rest Api |
 | Frontend | HTML, CSS, Bootstrap |
 | Database | SQLite (Upgradeable to PostgreSQL) |
 | Storage | Django Media Root |
